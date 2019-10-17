@@ -1,0 +1,420 @@
+/* --------> ASPECTS GENERAUX <-------- */
+
+body{
+	font-family: Helvetica;
+	font-size: 12px;
+	color: gray;
+	margin-top: 0px;
+	width: 100%;
+	margin-left: 0px;
+}
+/* --------> FIN ASPECTS GENERAUX <-------- */
+
+
+
+
+
+/* --------> HEADER <-------- */
+#header
+{
+	float: left;
+	width: 100%;
+	color: gray;
+	background-image: url('misc/grille.png'); 
+	padding-bottom: 10px;
+}
+
+
+#header h2{
+	text-transform: uppercase;
+	font-size: 8px;
+	margin-bottom: 2px;
+	margin-top: 20px;
+}
+
+#header h1{
+	width: 10%;
+	float: left;
+	padding-left: 22%;
+}
+#header ul{
+	list-style-type: none;
+	padding-left: 0px;
+	margin-top: 0px;
+}
+
+#header :link{
+	font-size: 7px;
+	color: gray;
+	text-decoration: none;
+}
+
+#liens{
+	float: right;
+	margin-right: 10%;
+}
+
+#header li{
+	line-height: 10px;
+}
+#liens{
+
+	width: 50%;
+}
+
+#header img{
+	width: 100px;
+}
+#hotels, #restaurants, #services, #activites, #plus{
+	
+	float: left;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+#hotels{
+	width: 12%;
+}
+
+#restaurants{
+	width: 14%;
+}
+
+#services{
+	width: 12%;
+}
+
+#activites{
+	width: 12%;
+}
+
+#plus{
+	width: 13%;
+}
+#hotels h2{
+
+	border-bottom: solid #FF6633 4px;
+	padding-bottom: 3px;
+}
+
+#restaurants h2{
+	border-bottom: solid #FFCC33 4px;
+	padding-bottom: 3px;
+}
+
+#services h2{
+	
+	border-bottom: solid #99CC66 4px;
+	padding-bottom: 3px;
+	
+}
+
+#activites h2{
+	
+	border-bottom: solid #3399CC 4px;
+	padding-bottom: 3px;
+}
+
+#plus h2{
+	border-bottom: solid #9966CC 4px;	
+	padding-bottom: 3px;
+
+}
+
+#hotels a:hover{
+	text-decoration: underline;
+	color: #FF6633;
+}
+
+#restaurants a:hover{
+	text-decoration: underline;
+	color: #FFCC33;
+}
+
+#services a:hover{
+	text-decoration: underline;
+	color: #99CC66;
+}
+
+#activites a:hover{
+	text-decoration: underline;
+	color: #3399CC;
+}
+
+#plus a:hover{
+	text-decoration: underline;
+	color: #9966CC;
+}
+
+
+/* --------> FIN HEADER <-------- */
+
+
+
+
+
+
+
+
+/* --------> BODY <-------- */
+
+#body{
+	padding-top: 9%;
+	margin-left: 0px;
+}
+#youtube{
+	padding-top: 20px;
+	border-top: solid #DCDCDC 1px;
+	padding-bottom: 20px;
+	border-bottom: solid #DCDCDC 1px;
+}
+
+#slogan{
+	text-align: center;
+	width: 100%;
+	background-image: url('misc/grille.png');
+	font-family:  "Comic Sans MS", "Comic Sans", cursive;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 12px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+#presentation
+{	
+	padding-top: 20px;
+	border-top: solid #DCDCDC 1px;
+	border-bottom: solid #DCDCDC 1px;
+	float: left;
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+#presentation :link{
+	font-size: 8px;
+	color: gray;
+	text-decoration: none;
+	font-style: italic;
+
+}
+
+#presentation h2{
+	text-transform: uppercase;
+	color: #FF6633;
+	font-size: 11px;
+	margin-bottom: 0px;
+}
+
+#presentation h6{
+	margin-top: 0px;
+	font-style: italic;
+	font-weight: lighter;
+	margin-bottom: 5px;
+	color: #DCDCDC;
+}
+#presentation p{
+	font-size: 8px;
+
+}
+
+
+#golf{
+	margin-left: 25%;
+	padding: 5px;
+	width: 10%;
+	border: 1px solid #DCDCDC ;
+	float: left;
+}
+
+#golf img{
+	width: 98%;
+}
+
+#accrofood{
+	width: 12%;
+	float: left;
+	margin-left: 20px;
+	margin-top: 4px;
+}
+
+#comphotos{
+	float: left;
+	width: 25%;
+	margin-left: 20px;
+	margin-top: 4px;
+}
+
+#comphotos img{
+	width: 27%;
+	padding: 3px;
+	border: 1px solid #DCDCDC ;
+	margin: 2px;
+}
+
+#photos{
+	margin-top: 10px;
+}
+/* --------> FIN BODY <-------- */
+
+
+
+
+
+
+/* --------> PRE-FOOTER <-------- */
+
+#informations
+{
+	background-image: url('misc/grille.png'); 
+	width: 100%;
+	margin-top: 10px;
+	float: left;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+
+#ensemble
+{
+	float: left;
+	margin-left: 25%;
+}
+
+#informations h6
+{
+		margin-top: 0px;
+	font-style: italic;
+	font-weight: lighter;
+	margin-bottom: 5px;
+	color: #DCDCDC;
+}
+
+#informations h5
+{
+	margin-top: 3px;
+	margin-bottom: 5px;
+	font-size: 8px;
+}
+
+#informations p
+{
+	font-size: 8px;
+}
+
+#informations h2
+{
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #A9A9A9;
+	margin-bottom: 3px;
+}
+
+#contacts{
+	float: left;
+	width: 13%;
+	margin-right: 40px;
+}
+
+#contacts a{
+	font-size: 8px;
+	color: #A9A9A9;
+}
+
+#adresse{
+	background-image: url('misc/accueil_icone.png');
+	background-repeat: no-repeat;
+	padding-left: 25px;
+}
+
+#telephone{
+	background-image: url('misc/telephone_icone.png');
+	background-repeat: no-repeat;
+	padding-left: 25px;
+}
+
+#contact{
+	background-image: url('misc/mail_icone.png');
+	background-repeat: no-repeat;
+	padding-left: 25px;
+}
+
+#support{
+	background-image: url('misc/aide_icone.png');
+	background-repeat: no-repeat;
+	padding-left: 25px;
+}
+
+#billet{
+	float: left;
+	width: 15%;
+	margin-right: 30px;
+}
+#billet a{
+	font-size: 8px;
+	font-style: italic;
+	color: #A9A9A9;
+}
+
+#lastcomment{
+	float: left;
+	width: 15%;
+	margin-right: 30px;
+}
+
+#blabla{
+	float: left;
+	width: 15%;
+	margin-right: 20px;
+}
+
+
+/* --------> FIN PRE-FOOTER <-------- */
+
+
+
+
+
+
+/* --------> FOOTER <-------- */
+
+#footer{
+	border-top: 1px solid #DCDCDC ;
+	color: #A9A9A9;
+font-size: 7px;
+width: 100%;
+float: left;
+padding-top: 10px;
+}
+
+#footer a:hover{
+	text-decoration: underline;
+}
+#footer p{
+	margin: 0px;
+}
+#reseaux a{
+
+text-decoration: none;
+color: #A9A9A9;
+font-size: 7px;
+margin-right: 4px;
+font-weight: bold;
+
+}
+
+#reseaux{
+	float: left;
+	margin-left: 25%;
+}
+
+#social{
+	float: right;
+	margin-right: 20%;
+}
+
+#social img{
+	width: 10%;
+}
+/* --------> FIN FOOTER <-------- */
